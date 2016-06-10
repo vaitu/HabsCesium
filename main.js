@@ -22,7 +22,7 @@ viewer.camera.setView({
 });
 
 // KMLの読み込み
-viewer.dataSources.add(Cesium.KmlDataSource.load('kml/doc.kml'),{
+viewer.dataSources.add(Cesium.KmlDataSource.load('kml/bokou.kml'),{
          camera: viewer.scene.camera,
          canvas: viewer.scene.canvas
 });
